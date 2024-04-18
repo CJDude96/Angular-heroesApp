@@ -11,6 +11,7 @@ import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/hero-image.pipe';
 import { SharedModule } from '../shared/shared.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     HeroesRoutingModule,
     MaterialModule,
+    ReactiveFormsModule,
     SharedModule
   ],
 })
